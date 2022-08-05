@@ -6,7 +6,7 @@ pipeline {
         echo 'build completed'
       }
     }
-  Stage('deploy') {
+    stage('deploy') {
       steps {
         echo 'deploy completed'
       }
